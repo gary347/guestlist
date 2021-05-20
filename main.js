@@ -5,7 +5,7 @@ function add()
 {
 var GuestName = document.getElementById("Name11").value;
 names_of_people.push(GuestName);
-document.getElementById("Name1").innerHTML = names_of_people;
+document.getElementById("Name1").innerHTML=GuestName;
 }
 
 function show()
